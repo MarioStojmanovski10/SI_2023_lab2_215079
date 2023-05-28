@@ -15,3 +15,8 @@
 На сликата подолу ќе можете да ги видите сите тест случаеви.Точно кај аргументите има значење дека тој аргумент е null.Па така од направените тест примери заклучивме
 дека од 8 тест случаи,7 ќе бидат точни .
 ![tocno](https://github.com/MarioStojmanovski10/SI_2023_lab2_215079/assets/108304165/a3889f6d-9a7d-467d-86a8-31f4ced839f7)
+### Објаснување на напишаните unit tests
+Во testFunction_NullUser_ThrowsException тестот, се проверува дали функцијата ќе фрли исклучок (RuntimeException) кога user е null. Очекуваме да се фрли исклучок.<br>
+Во testFunction_NullUsername_SetsEmailAsUsername тестот, се проверува дали функцијата ќе го постави email како вредност на username кога username е null<br>
+Во testFunction_PasswordWithWhitespace_ReturnsFalse тестот, се проверува дали функцијата ќе врати false кога лозинката содржи празно место (whitespace).<br>
+Во testFunction_ValidInput_ReturnsTrue тестот, се проверува дали функцијата ќе врати true кога сите влезни аргументи се валидни.<br>
